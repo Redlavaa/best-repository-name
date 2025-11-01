@@ -1,7 +1,8 @@
-if ye = nah{
-  send error("how")
+let ye: boolean = true;
+let nah: boolean = false;
 
-else if ye != nah{
- print("0k")
+if (ye !== nah){ // ai is high af here
+  console.log("how");
+} else if (!ye && nah) {
+  console.log("different");
 }
-|
